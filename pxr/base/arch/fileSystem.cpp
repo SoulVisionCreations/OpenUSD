@@ -689,7 +689,7 @@ Arch_InitTmpDir()
 #if defined(ARCH_OS_DARWIN)
         _TmpDir = "/tmp";
 #else
-        _TmpDir = "/var/tmp";
+        _TmpDir = "/tmp";
 #endif
     }
 #endif
